@@ -1,0 +1,215 @@
+@font-face {
+  font-family: "Relay Cond";
+  src: url("/fonts/relay-cond/a6d732f8-2ef2-4d27-b979-22e1b85af96a-2.eot");
+  src: url("/fonts/relay-cond/a6d732f8-2ef2-4d27-b979-22e1b85af96a-2.eot?") format("embedded-opentype"),
+       url("/fonts/relay-cond/a6d732f8-2ef2-4d27-b979-22e1b85af96a-3.woff") format("woff"),
+       url("/fonts/relay-cond/a6d732f8-2ef2-4d27-b979-22e1b85af96a-1.ttf") format("truetype"),
+       url("/fonts/relay-cond/a6d732f8-2ef2-4d27-b979-22e1b85af96a-4.svg#web") format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Relay";
+  src: url("/fonts/relaybold/98d9cd4b-23e0-44b6-a556-dd08af2f6c20-2.eot");
+  src: url("/fonts/relaybold/98d9cd4b-23e0-44b6-a556-dd08af2f6c20-2.eot?") format("embedded-opentype"),
+       url("/fonts/relaybold/98d9cd4b-23e0-44b6-a556-dd08af2f6c20-3.woff") format("woff"),
+       url("/fonts/relaybold/98d9cd4b-23e0-44b6-a556-dd08af2f6c20-1.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+#beautystylenews {
+    width: 308px;
+    /* height: 550px; */
+    margin-bottom: 10px;
+    margin-top:-3px;
+    
+}    
+
+#beautystylenews .bottom {
+    background-image: url(/images/fe/modules/dropshadow-308px-bottom-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    padding: 0 0 4px 0;
+}
+
+#beautystylenews .top {
+    background-image: url(/images/fe/modules/dropshadow-308px-top-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding: 4px 0 0 0;
+}
+#beautystylenews-container {
+    background-image: url(/images/fe/modules/dropshadow-308px-bg.png);
+    background-repeat: repeat-y;
+    padding:0 4px;
+    /*  */
+}
+
+#beautystylenews-container h3 {
+    color:#FFF;
+    text-transform: uppercase;
+    background: #b51e8f;
+    font-size:30px;
+    box-sizing:border-box;
+    width:100%;
+    text-align:center;
+    -webkit-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding:8px;
+    float:left;
+    font-family:'Relay Cond', sans-serif; 
+    font-weight:normal;
+    margin-bottom: -4px;
+}
+
+#beautystylenews-container .clearfix {
+    clear:both;
+}
+
+#beautystylenews-container .item {
+    position:relative;
+    padding:8px;
+    border-bottom:dotted 1px #98178c;
+    border-left: solid 1px #98178c;
+    border-right: solid 1px #98178c;
+}
+
+#beautystylenews-container .item img {
+    -moz-box-shadow:    4px 6px 0px 1px #eecde5;
+    -webkit-box-shadow: 4px 6px 0px 1px #eecde5;
+    box-shadow:         4px 6px 0px 1px #eecde5;
+}
+
+#beautystylenews-container .item h4 {
+    font-size:14.6px;
+    line-height:18px;
+}
+
+#beautystylenews-container .item label {
+    display:block;
+    font-weight:normal;
+    font-size:9px;
+    text-transform: uppercase;
+    color:#ea148c;
+}
+
+#beautystylenews-container .item a {
+    text-decoration:none;
+    color:#000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#beautystylenews-1 {
+    padding: 14px 10px 10px 10px!important;
+}
+#beautystylenews-1 img {
+    width:100%;
+}
+
+#beautystylenews-1 .gradient {
+    position:absolute;
+    top:11px;
+    left:10px;
+    right: 10px;
+    bottom :12px;
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIzMSUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMCIvPgogICAgPHN0b3Agb2Zmc2V0PSI0OSUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMCIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 31%, rgba(0,0,0,0) 49%, rgba(0,0,0,.8) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(31%,rgba(0,0,0,0)), color-stop(49%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,.8))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 31%,rgba(0,0,0,0) 49%,rgba(0,0,0,.8) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(0,0,0,0) 31%,rgba(0,0,0,0) 49%,rgba(0,0,0,.8) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0) 31%,rgba(0,0,0,0) 49%,rgba(0,0,0,.8) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 31%,rgba(0,0,0,0) 49%,rgba(0,0,0,.8) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-8 */
+
+}
+
+#beautystylenews-1 h4 {
+    color:#FFF;
+    position:absolute;
+    left:18px;
+    bottom:22px;
+    right: 16px;
+    line-height:22px;
+    font-size:18px!important;
+    line-height:20px!important;
+}
+
+#beautystylenews-1 a {
+    color:#FFF!important;
+}
+/*
+#beautystylenews-2 img {
+    width:130px;
+    float:left;
+    margin-right:14px;
+}
+
+#beautystylenews-2::after {
+    display:block;
+    content:' ';
+    clear:left;
+}*/
+
+#beautystylenews-3 {
+    border-bottom:5px solid #b51e8f!important;
+}
+/*
+#beautystylenews-3 img {
+    float:right;
+    width: 130px;
+} 
+
+#beautystylenews-3::after {
+    display:block;
+    content:' ';
+    clear:right;
+}*/
+
+#beautystylenews-more {
+    padding:10px;
+}
+
+#beautystylenews-more a {
+    color:#ea148c;
+    text-decoration: none;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+#beautystylenews a:hover,
+#beautystylenews-more a:hover {
+    text-decoration: underline;
+}
+
+#beautystylenews h4 a::after, #beautystylenews-more a::after {
+    /*content: 'Â»';*/
+    display:inline-block;
+    margin-left:4px;
+    font-size:1.1em;
+    margin-top:-1px;
+    color:#c728a6;
+}
+
+#beautystylenews-more .more-style {
+    float:left;
+}
+
+#beautystylenews-more .more-beauty {
+    float:right;
+}
+
+#beautystylenews-more .more-style::after,
+#beautystylenews-more .more-beauty::after {
+    font-size:1.3em;
+}
+
+#beautystylenews-more::after {
+    display:block;
+    content:' ';
+    clear:both;
+}

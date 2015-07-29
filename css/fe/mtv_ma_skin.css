@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'relay';
+  src: url('../../fonts/relay/ede7bb19-7040-49e2-9ff2-0d814bd81378-2.eot');
+  src: url('../../fonts/relay/ede7bb19-7040-49e2-9ff2-0d814bd81378-2.eot#iefix') format('embedded-opentype'),
+       url('../../fonts/relay/ede7bb19-7040-49e2-9ff2-0d814bd81378-3.woff') format('woff'),
+       url('../../fonts/relay/ede7bb19-7040-49e2-9ff2-0d814bd81378-1.ttf') format('truetype'),
+       url('../../fonts/relay/ede7bb19-7040-49e2-9ff2-0d814bd81378-4.svg#relay') format('svg');
+}
+
+@font-face {
+  font-family: 'relaybold';
+  src: url('../../fonts/relaybold/98d9cd4b-23e0-44b6-a556-dd08af2f6c20-2.eot');
+  src: url('../../fonts/relaybold/98d9cd4b-23e0-44b6-a556-dd08af2f6c20-2.eot#iefix') format('embedded-opentype'),
+       url('../../fonts/relaybold/98d9cd4b-23e0-44b6-a556-dd08af2f6c20-3.woff') format('woff'),
+       url('../../fonts/relaybold/98d9cd4b-23e0-44b6-a556-dd08af2f6c20-1.ttf') format('truetype'),
+       url('../../fonts/relaybold/98d9cd4b-23e0-44b6-a556-dd08af2f6c20-4.svg#relay') format('svg');
+}
+
+.mtv_movie_awards #main-content-area {
+	background:#000 url(/images/microsites/mtvmovieawards/MTVMA_hp_bg.jpg) 0 0 no-repeat;
+	padding-bottom:10px;
+	width: 990px;
+	margin:10px 0 0 0;
+}
+
+.preview-mtvma { text-align: center; margin:10px 0; }
+.preview-mtvma img { width:100%;}
+
+.mtv_movie_awards .top-sponsor { float:right; }
+.mtv_movie_awards #latest-news h3 {	background-image: url(/images/microsites/mtvmovieawards/latest_news-header-bg.png); background-position: 0 -1px; }
+.mtv_movie_awards #latest-news .news-item.featured h4 a, .mtv_movie_awards #latest-news .news-item.featured h4 .link-arrow { font-size:18px; }
+.mtv_movie_awards #on-newsstands h3 { background-image: url(/images/microsites/mtvmovieawards/on_newsstands-header-bg.png);  }
+.mtv_movie_awards #latest-news .news-item {	background:#ffede7; }
+.mtv_movie_awards #latest-news .even, .mtv_movie_awards #latest-news .featured { background-color: #fff; }
+.mtv_movie_awards #latest-news .link-arrow,.mtv_movie_awards #latest-news .news_hot_tag,.mtv_movie_awards #latest-news .see-more a, .mtv_movie_awards #hot-pics .link-arrow { color:#e51d25!important; }
+.mtv_movie_awards .mtv-header-block { background: url(/images/microsites/mtvmovieawards/MTVMA_hp_logo.png) center 10px no-repeat;	padding:94px 0 37px 0; }
+.mtv_movie_awards .mtv-header-block h1 {text-shadow: 2px 2px #000; font-family:'relaybold', sans-serif; color:#fff200; font-size:62px; text-transform: uppercase; text-align:center; line-height:54px;}
+.mtv_movie_awards .mtv-header-block h1 a { color:inherit; text-decoration: none;}
+.mtv_movie_awards .col2, .mtv_movie_awards .col3 {	padding-top: 10px;}
+.mtv_movie_awards #hot-pics #hot-pics-content a.featured span.caption {background-image: url(/images/microsites/mtvmovieawards/module-hot_pics-background-featured_image.png);}
+.mtv_movie_awards #new-galleries .content { background: url(/images/microsites/mtvmovieawards/MTVMA_galleries_bg.jpg) 0 0 repeat-y;}
+.mtv_movie_awards #new-galleries .link-arrow, .mtv_movie_awards #new-galleries .see-more {color:#ed1c24;}
+.mtv_movie_awards #new-galleries a.half {background-image: url(/images/microsites/mtvmovieawards/new_image_galleries-half_size-bg.png);}
+.mtv_movie_awards #new-galleries a.full.tall {background-image: url(/images/microsites/mtvmovieawards/new_image_galleries-full_size-tall-bg.png);}
+.mtv_movie_awards #new-galleries a.full {background-image: url(/images/microsites/mtvmovieawards/new_image_galleries-full_size-bg.png);}
+.mtv_movie_awards #new-galleries .bottom, 
+.mtv_movie_awards #new-galleries .top,
+.mtv_movie_awards #hot-pics .bottom,
+.mtv_movie_awards #hot-pics #hot-pics-content,
+.mtv_movie_awards #hot-pics .top { background: none; }
+.mtv_movie_awards #hot-pics { background: #d51b28; width:350px; }
+.mtv_movie_awards #hot-pics .bottom { padding-bottom:5px; }
+.mtv_movie_awards #hot-pics-content #slider .nav { background-image: url(/images/microsites/mtvmovieawards/module-hot_pics-slider-pager.png);}
+.mtv_movie_awards #twitterFeed { width: 298px; margin-left: 4px!important;background:#343434; border:1px solid #f95f11; text-align:center; margin:20px 0 10px;}
+.mtv_movie_awards #twitterFeed p { color:#f95f11; font-family:Serif; font-size:18px; margin-top:-10px; padding-top:10px; background: url(/images/microsites/mtvmovieawards/twitter-header.png) top center no-repeat; }
+.mtv_movie_awards #twitterFeed p span { font-family:'relay'; }
+.mtv_movie_awards #twitterFeed h3 { font-family:'relaybold', sans-serif;  color:#fff200; font-size:24px; text-transform: uppercase; }
+.mtv_movie_awards #twitterFeed li { background:#555555; margin:8px; padding:10px;}
+.mtv_movie_awards #twitterFeed a.tweetbutton { 
+	background: #ff8d03; /* Old browsers */
+	background: -moz-linear-gradient(top, #ff8d03 0%, #fc6111 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff8d03), color-stop(100%,#fc6111)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ff8d03 0%,#fc6111 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ff8d03 0%,#fc6111 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ff8d03 0%,#fc6111 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ff8d03 0%,#fc6111 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8d03', endColorstr='#fc6111',GradientType=0 ); /* IE6-9 */
+	border:0;
+	font-family:'relaybold';
+	font-size:14px;
+	font-weight:bold;
+	padding:8px;
+	color:#FFF;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	text-decoration:none;
+	display: block;
+	width: 112px;
+	margin: 0 auto 10px auto;
+}
+
+/* LIVEFEED */
+.mtv_movie_awards #preview-feed { float:right; margin:0 12px 0 0; }
+.mtv_movie_awards #live-feed { float:right; margin:28px 16px 0 0; background: url(/images/microsites/mtvmovieawards/mtvma-redcarpet-livestream.png) 1px 0 no-repeat; }
+.mtv_movie_awards #live-feed h3 { text-transform: uppercase; font-size:20px; padding-left:22px; font-family: 'relay'; }
+.mtv_movie_awards #live-feed .live-feed-container { border:1px solid #fc6011; }
+/* PARTNER MODULES */
+.mtv_movie_awards .indiv_partners_container, .mtv_movie_awards .partner_bot_bg { background:none; }
+.mtv_movie_awards .partner_list_container { background: #FFF; padding: 0 4px; margin-left: 5px; }
+
+/* AlIGNMENT FIXES */ 
+/*.mtv_movie_awards #replace-poll-wrapper, */
+.mtv_movie_awards #connect { margin-left:5px; }
